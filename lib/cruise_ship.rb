@@ -8,11 +8,11 @@
 
 def select_winner(passengers)
   # add the code snippet here!
-  list = ""
+  
   passengers.each do |suite, name|
-    if suite == suite_a && name.start_with?("A")
-      list = name
+    if suite == :suite_a && name.start_with?("A")
+      puts name
     end
   end
-  list
+  
 end
